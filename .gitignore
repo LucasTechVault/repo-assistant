@@ -1,0 +1,29 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local configuration; retain the documented example
+.env
+.env.*
+!.env.example
+
+# Tool caches and generated artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+build/
+dist/
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+
+.env.example
